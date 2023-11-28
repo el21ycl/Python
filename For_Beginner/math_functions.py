@@ -23,7 +23,6 @@ print(pow(pi,2))
 
 # sqrt() is a square root 根號
 print(math.sqrt(220))
-print(sqrt(22))
 
 # max() will find the largest/smallest of these values 
 print(max(x,y,z))
