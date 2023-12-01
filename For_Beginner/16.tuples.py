@@ -1,0 +1,14 @@
+# tuple = collection which is ordered and unchangeable
+#         used to group together related data
+#       () parentheses
+student = ["Bro",21,"male"]
+
+print(student.count("Bro"))  # 1, how many times a value appears
+print(student.index("male")) # 2, it can find the index of a certain value 
+
+for x in student:
+    print(x)
+
+if "Bro" in student:
+    print("Bro is here")
+
