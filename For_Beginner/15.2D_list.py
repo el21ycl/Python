@@ -1,11 +1,14 @@
 # 2D lists = a list of lists
-
-drinks = "coffee","soda","tea"
-dinner = ["pizza","hamburger","hotdog"]
-dessert = ["cake","ice cream"]
+#  [] square bracket
+#          0        1      2
+drinks = ["coffee","soda","tea"]                 # 0
+dinner = ["pizza","hamburger","hotdog"]          # 1
+dessert = ["cake","ice cream"]                   # 2
 
 food = [drinks,dinner,dessert]
-print(drinks)
+
 print(food)
 
+print(food[0][1])
+#         |  --
 

@@ -1,7 +1,7 @@
 
-name = "bro code" # 8, including blank space
+name = "bro code" 
 # How long the length of our string
-print(len(name))
+print(len(name)) # 8, including blank space
 
 # How to find a character within a string
 print(name.find("o")) # is index 2
