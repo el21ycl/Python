@@ -17,10 +17,12 @@ dishes.update(utensils)
 for y in dishes:
     print(y)
 '''
-#dinner_table = utensils.union(dishes)
+#dinner_table = utensils.union(dishes), like | OR
 dinner_table = utensils | dishes
 for x in dinner_table:
     print(x)
 
-print(utensils.difference(dishes)) # what is utensils has that dishes doesn't
-print(utensils.intersection(dishes)) # it will return whatever element that they have in common
+print(utensils.difference(dishes)) # what is utensils has that dishes doesn't, like a-b
+print(utensils.intersection(dishes)) # it will return whatever element that they have in common,like & AND
+
+# a^b, 不同時包含于a和b的元素， not AND
