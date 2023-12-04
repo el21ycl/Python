@@ -5,11 +5,11 @@
 
 name = "Bro code"
 # index 01234567 positive
-# index -7-6-5-4-3-2-1 negative
+# index -8-7-6-5-4-3-2-1 negative
 
 # At this name[0:2], the first index is inclusive, the stopping index is exclusive
 #first_name = name[0:2] display 'Br'
-first_name = name[:-4]
+first_name = name[:3]
 
 # a shortcut if you leave stop blank, this is a shorthand way of writing
 #last_name = name[4:] start to index4 after until the end [0:end]
@@ -33,7 +33,7 @@ website1 = "http://google.com" # google is [7:13]
 website2 = "http://wikipedia.com"  # google is [7:16]
 
 slice = slice(7,-4)
-print(website1[slice]) # [7:-4]
+print(website1[slice]) # [7:-4], 7 8 9 10 11 12(-5)
 print(website2[slice])
 
 
