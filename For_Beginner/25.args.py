@@ -1,5 +1,5 @@
 # *args(name) = parameter that will pack all arguments into a tuple
-#        useful so that a function can accept a varying amount of arguments
+#               useful so that a function can accept a varying amount of arguments
 # *asterisk
 
 '''
@@ -13,7 +13,7 @@ print(add(1,2))
 # use args parameter so what we're going to do is replace all of our parameters with asterisk args
 def add(*stuff):
     sum = 0
-    stuff = list(stuff) # change tuple to list, because tuples are unchangeable
+    stuff = list(stuff) # cast our tuple as a list, because tuples are unchangeable
     stuff[0] = 0
     for i in stuff:
         sum += i
