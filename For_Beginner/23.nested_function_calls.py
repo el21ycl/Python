@@ -9,7 +9,7 @@ num = abs(num)
 num= round(num)
 print(num)
 '''
-
+# just take up less lines but is more of an extreme example
 print(round(abs(float(input("Enter a whole positive number: ")))))
 
 
