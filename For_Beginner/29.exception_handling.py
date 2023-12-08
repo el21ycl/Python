@@ -7,8 +7,8 @@ try:
     #print(result)
 
 # When denominator = 0, will display ZeroDivisionError
-except ZeroDivisionError as e:
-    print(e)
+except ZeroDivisionError as g:
+    print(g)
     print("You can't divide by zero! idiot!")
 
 # When denominator = string, will display ZeroDivisionError
