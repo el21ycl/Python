@@ -16,12 +16,12 @@ except ValueError as e:
     print(e)
     print("Enter only number plz")
 
-# this accept exception block will catch all sorts of different exceptions
+# this except exception block will catch all sorts of different exceptions
 except Exception as e: # as e can display what exception occurred too as well
     print(e)  # this is an additional way in which you cloud handle an exception although it's 
               # entirely optional
     print("somthing went wrong :(")                    
-
+# if not exception happen, then do something else
 else:
     print(result)
 

@@ -4,10 +4,10 @@ import random
 x = random. randint(1,6) # integer 1~6
 print(x)
 
-y = random.random() #0~1
+y = random.random() # floaating 0~1
 print(y)
 
-mylist = ['rock', 'paper','scissors',5]
+mylist = ['rock', 'paper','scissors'] # random a list or tuple or string
 z = random.choice(mylist)
 print(z)
 
