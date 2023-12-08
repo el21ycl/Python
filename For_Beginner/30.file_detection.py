@@ -1,5 +1,6 @@
+# os主要提供了文件或文件夹的新建、删除、查看等方法，还提供了对文件以及目录的路径操作。
 import os
-# \ blackslash
+# \ backslash
 # need double backslashes because that's the escape sequence for a backslash within a string
 
 # \ escape sequence,用于表示一些特殊的字符或者字符序列,要在字符串中打出\，需要兩個轉義字符
