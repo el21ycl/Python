@@ -1,6 +1,7 @@
 import os
 
 source = r'C:\Users\lin\Documents\GitHub\el21ycl\Workspace\Python\test.txt'
+# to move and rename(if u want) file or directory
 destination = r'C:\Users\lin\Desktop\test2.txt'
 
 try:
