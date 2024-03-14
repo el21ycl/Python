@@ -1,4 +1,4 @@
-# tuple = collection which is ordered and unchangeable
+# tuple = collection which is ordered and unchangeable 有順序，不可改的
 #         used to group together related data
 #       () parentheses
 student = ("Bro",21,"male") # if no sperator, default is tuple

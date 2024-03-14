@@ -3,7 +3,7 @@ import random
 
 while True:
     choices = ['rock', 'paper','scissors']
-
+# choices() 返回的是列表，且值可能重複
     computer = random.choice(choices)
 
     player = None

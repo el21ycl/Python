@@ -1,5 +1,5 @@
 # list = used to store multiple items in a single variable
-
+#      []
 food = ["pizza","hamburger","hotdog","spaghetti","pudding"]
 #         0       1          2        3           4
 print(food)

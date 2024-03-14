@@ -15,6 +15,7 @@ for i in phone_number:
     if i =="-":
         continue    # it skips to the next iteration of the loop
     print(i,end="")
+print()
 
 for j in range(1,21): # 1~20
     if j == 13:

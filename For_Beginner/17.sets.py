@@ -1,4 +1,4 @@
-# set = collection which is unordered, unindexed. No duplicate values
+# set = collection which is unordered, unindexed. No duplicate values 隨機順序，無序列，不能重複
 #       {} curly braces
 
 utensils = {"fork","spoon","knife","knife","knife"}
