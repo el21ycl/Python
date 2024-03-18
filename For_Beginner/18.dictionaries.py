@@ -16,7 +16,7 @@ capitals.pop('China')
 
 # print(capitals['Russia']) this isn't always safe, if print(['Germany']),it will error
 #                ^把相应的键放入熟悉的方括弧 square bracket
-
+print(capitals.get())
 print(capitals.get('Germany')) # it will print none
 
 print(capitals.keys())
