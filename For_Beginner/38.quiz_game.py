@@ -34,12 +34,12 @@ def display_score(correct_guesses , guesses):
 
     print("Answers: ", end="")
     for i in questions:
-        print(questions.get(i), end="")
+        print(questions.get(i) , end="")
     print()
 
     print("Guesses: ", end="")
     for i in guesses:
-        print(i, end="")
+        print(i , end="")
     print()
 
     sore = int((correct_guesses/len(questions))*100)

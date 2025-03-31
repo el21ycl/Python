@@ -1,4 +1,12 @@
-a = "五顆"
-a2 = "12 5fdsa DA456"
-b = a2.val
-print (b)
+from 39_carcar import Car
+
+car_1 = Car("Chevy","Corvette",2021,"blue")
+
+print(car_1.make)
+print(car_1.model)
+print(car_1.year)
+print(car_1.color)
+
+
+
+
